@@ -6,12 +6,61 @@
     "maintenance": {
       "title": "Údržba",
       "description": "Omlouváme se, ale náš systém je momentálně v údržbě. Pracujeme na zlepšení našich služeb a brzy budeme zpět online. Děkujeme za vaši trpělivost a pochopení."
-    }
+    },
+    "category": "Kategorie",
+    "statusLabel": "Stav",
+    "status": {
+      "available": "Dostupné",
+      "reserved": "Rezervováno",
+      "sold": "Prodáno / Předáno"
+    },
+    "filter": {
+      "all": "Vše",
+      "free": "Zdarma",
+      "paid": "Placené"
+    },
+    "back": "Zpět"
   },
   "page": {
     "home": {
-      "title": "Domovská stránka",
-      "description": "Vítejte na naší domovské stránce! Jsme rádi, že jste zde. Prozkoumejte naše služby a produkty, které vám mohou pomoci dosáhnout vašich cílů. Neváhejte nás kontaktovat pro více informací."
+      "title": "Přidat nabídku | Bazar Blogic",
+      "description": "Vytvořte novou nabídku v interním bazaru Blogic.",
+      "button": "Bazar",
+      "add_heading": "Přidat nabídku",
+      "back": "Zpět",
+      "button_submit": "Přidat nabídku",
+      "form": {
+        "name_label": "Název věci",
+        "name_placeholder": "Např. Konferenční stolek",
+        "desc_label": "Popis",
+        "desc_placeholder": "Popiš stav, rozměry, místo předání...",
+        "category_label": "Kategorie",
+        "category_placeholder": "Vyber kategorii",
+        "price_label": "Cena",
+        "free_label": "Nabídka je zdarma",
+        "contact_label": "Jméno kontaktu",
+        "contact_placeholder": "Tvé jméno",
+        "email_label": "E-mail",
+        "status_label": "Stav nabídky",
+        "url_label": "URL obrázku (volitelné)",
+        "footer_info": "Platbu a předání si domluvíš přímo s kupujícím."
+      }
+    },
+    "bazar": {
+      "title": "Bazar",
+      "sub": "Interní bazar Blogic Store. Nabízej věci kolegům k prodeji nebo zdarma. Platbu a předání si domluvíte přímo mezi sebou.",
+      "addOffer": "+ Přidat nabídku",
+      "searchPlaceholder": "Hledat nabídku...",
+      "viewDetail": "Zobrazit detail",
+      "offeredBy": "Nabízí:"
     }
+  },
+  "category": {
+    "electronics": "Elektronika",
+    "furniture": "Nábytek",
+    "clothes": "Oblečení",
+    "books": "Knihy",
+    "kids": "Dětské věci",
+    "other": "Ostatní"
   }
 }

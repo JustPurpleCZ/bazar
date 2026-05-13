@@ -1,6 +1,7 @@
-import { Title } from "@mantine/core";
+import { Title,Button } from "@mantine/core";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
@@ -14,5 +15,10 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page(_: PageProps<"/[locale]">) {
   const t = await getTranslations();
 
-  return <Title>{t("page.home.title")}</Title>;
+  return(
+    <>
+      <Title>{t("page.home.title")}</Title>
+      <Button><a href="http://localhost:3000/cs/bazar">{t("page.home.button")}</a></Button>
+    </>
+  );
 }
